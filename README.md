@@ -3,6 +3,8 @@ This is a collection of notebooks that will create 'Discover Weekly' style playl
 
 The notebooks in this repo use the LastFM API and the Spotify API. LastFM is needed because it can track listening over time, and also has genre tags attached to song tracks. Spotify has limited ability to get recent listening (only 50 songs back) and does not provide genre labels to songs. 
 
+To be able to run some of the wrapper functions which call Spotipy functions, you will need the Spotipy package installed. Instructions on how to get it are [here](https://spotipy.readthedocs.io/en/2.16.1/#installation). 
+
 ## Instructions
 1. First we need LastFM to start tracking our listening on Spotify. Follow [this guide](https://community.spotify.com/t5/Spotify-Answers/How-can-I-connect-Spotify-to-Last-fm/ta-p/4795301) to connect LastFM to Spotify. Now just listen to music as you usually do! (Think about waiting about a week to let LastFM to collect your listening data, but it will now track your listening from now on) 
 
